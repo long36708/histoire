@@ -6,8 +6,10 @@ export default defineConfig({
   plugins: [
     HstVue(),
   ],
+  setupFile: './histoire.config.ts',
   backgroundPresets: [
     ...(getDefaultConfig().backgroundPresets || []),
+
     {
       label: 'Custom gray',
       color: '#cafff5',

@@ -1,7 +1,7 @@
 <script lang="ts">
 export default {
   name: 'HstJson',
-  inheritAttrs: false,
+  inheritAttrs: false, // 作用是避免将父组件的 attrs 传递给子组件
 }
 </script>
 
