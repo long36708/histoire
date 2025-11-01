@@ -50,7 +50,7 @@ Create an `histoire.config.js` or `histoire.config.ts` file in your project root
 
 ```ts
 import { HstSvelte } from '@histoire/plugin-svelte'
-import { defineConfig } from 'histoire'
+import { defineConfig } from 'longmo-histoire' 
 
 export default defineConfig({
   plugins: [

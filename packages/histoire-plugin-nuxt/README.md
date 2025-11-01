@@ -8,7 +8,7 @@ Add the plugin in histoire config:
 
 ```js
 import { HstNuxt } from '@histoire/plugin-nuxt'
-import { defineConfig } from 'histoire'
+import { defineConfig } from 'longmo-histoire' 
 
 export default defineConfig({
   plugins: [

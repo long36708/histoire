@@ -19,7 +19,7 @@ Here is an example for a wrapper component:
 
 ```vue
 <script lang="ts" setup>
-import { Story, Variant } from 'histoire'
+import { Story, Variant } from 'longmo-histoire' 
 
 const props = defineProps<{
   story: Story

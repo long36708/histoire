@@ -50,7 +50,7 @@ Create an `histoire.config.js` or `histoire.config.ts` file in your project root
 
 ```ts
 import { HstVue } from '@histoire/plugin-vue'
-import { defineConfig } from 'histoire'
+import { defineConfig } from 'longmo-histoire' 
 
 export default defineConfig({
   plugins: [
@@ -130,7 +130,7 @@ Add the plugin in histoire config:
 ```js
 import { HstNuxt } from '@histoire/plugin-nuxt'
 import { HstVue } from '@histoire/plugin-vue'
-import { defineConfig } from 'histoire'
+import { defineConfig } from 'longmo-histoire' 
 
 export default defineConfig({
   plugins: [

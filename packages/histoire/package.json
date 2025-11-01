@@ -1,5 +1,5 @@
 {
-  "name": "histoire",
+  "name": "longmo-histoire",
   "type": "module",
   "version": "1.0.0-alpha.4",
   "description": "A fast story book powered by Vite",
@@ -10,7 +10,7 @@
   "repository": {
     "url": "https://github.com/Akryum/histoire.git",
     "type": "git",
-    "directory": "packages/histoire"
+    "directory": "packages/longmo-histoire"
   },
   "publishConfig": {
     "access": "public"

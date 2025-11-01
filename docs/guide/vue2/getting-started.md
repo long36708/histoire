@@ -51,7 +51,7 @@ yarn add -D histoire @histoire/plugin-vue2
 Create an `histoire.config.js` or `histoire.config.ts` file in your project root to enable the Vue plugin:
 
 ```ts
-import { defineConfig } from 'histoire'
+import { defineConfig } from 'longmo-histoire' 
 import { HstVue } from '@histoire/plugin-vue2'
 
 export default defineConfig({

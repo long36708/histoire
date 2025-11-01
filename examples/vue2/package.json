@@ -1,5 +1,6 @@
 {
   "name": "histoire-example-vue2",
+  "type": "module",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -13,7 +14,7 @@
   "devDependencies": {
     "@histoire/plugin-vue2": "workspace:*",
     "@vitejs/plugin-vue2": "^2.3.1",
-    "histoire": "workspace:*",
+    "longmo-histoire": "workspace:*",
     "vite": "catalog:",
     "vue-template-compiler": "^2.7.16"
   }

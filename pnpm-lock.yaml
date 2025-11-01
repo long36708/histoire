@@ -95,7 +95,7 @@ importers:
       cypress:
         specifier: ^13.16.1
         version: 13.17.0
-      histoire:
+      longmo-histoire:
         specifier: workspace:*
         version: link:../../packages/histoire
       nuxt:
@@ -123,7 +123,7 @@ importers:
       cypress:
         specifier: ^13.16.1
         version: 13.17.0
-      histoire:
+      longmo-histoire:
         specifier: workspace:*
         version: link:../../packages/histoire
       start-server-and-test:
@@ -157,7 +157,7 @@ importers:
       '@types/cookie':
         specifier: ^1.0.0
         version: 1.0.0
-      histoire:
+      longmo-histoire:
         specifier: workspace:*
         version: link:../../packages/histoire
       svelte:
@@ -191,7 +191,7 @@ importers:
       '@vitejs/plugin-vue2':
         specifier: ^2.3.1
         version: 2.3.4(vite@7.0.0(@types/node@22.13.4)(jiti@2.4.2)(sass@1.85.0)(terser@5.39.0)(yaml@2.7.0))(vue@2.7.16)
-      histoire:
+      longmo-histoire:
         specifier: workspace:*
         version: link:../../packages/histoire
       vite:
@@ -231,7 +231,7 @@ importers:
       globby:
         specifier: ^14.0.2
         version: 14.1.0
-      histoire:
+      longmo-histoire:
         specifier: workspace:*
         version: link:../../packages/histoire
       minimatch:
@@ -265,7 +265,7 @@ importers:
       '@vitejs/plugin-vue':
         specifier: ^5.2.1
         version: 5.2.1(vite@7.0.0(@types/node@22.13.4)(jiti@2.4.2)(sass@1.85.0)(terser@5.39.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.6.3))
-      histoire:
+      longmo-histoire:
         specifier: workspace:*
         version: link:../../packages/histoire
       vite:
@@ -287,7 +287,7 @@ importers:
       '@vitejs/plugin-vue':
         specifier: ^5.2.1
         version: 5.2.1(vite@7.0.0(@types/node@22.13.4)(jiti@2.4.2)(sass@1.85.0)(terser@5.39.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.6.3))
-      histoire:
+      longmo-histoire:
         specifier: workspace:*
         version: link:../../packages/histoire
       vite:
@@ -306,7 +306,7 @@ importers:
       '@vitejs/plugin-vue':
         specifier: ^5.2.1
         version: 5.2.1(vite@7.0.0(@types/node@22.13.4)(jiti@2.4.2)(sass@1.85.0)(terser@5.39.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.6.3))
-      histoire:
+      longmo-histoire:
         specifier: workspace:*
         version: link:../../packages/histoire
       vite:
@@ -331,7 +331,7 @@ importers:
       '@vitejs/plugin-vue':
         specifier: ^5.2.1
         version: 5.2.1(vite@7.0.0(@types/node@22.13.4)(jiti@2.4.2)(sass@1.85.0)(terser@5.39.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.6.3))
-      histoire:
+      longmo-histoire:
         specifier: workspace:*
         version: link:../../packages/histoire
       vite:
@@ -617,7 +617,7 @@ importers:
       '@vitejs/plugin-vue':
         specifier: ^5.2.1
         version: 5.2.1(vite@7.0.0(@types/node@22.13.4)(jiti@2.4.2)(sass@1.85.0)(terser@5.39.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.6.3))
-      histoire:
+      longmo-histoire:
         specifier: workspace:*
         version: link:../histoire
       vite:
@@ -654,7 +654,7 @@ importers:
       '@types/node':
         specifier: ^22.10.1
         version: 22.13.4
-      histoire:
+      longmo-histoire:
         specifier: workspace:*
         version: link:../histoire
       typescript:
@@ -685,7 +685,7 @@ importers:
       '@types/node':
         specifier: ^22.10.1
         version: 22.13.4
-      histoire:
+      longmo-histoire:
         specifier: workspace:*
         version: link:../histoire
       typescript:
@@ -710,7 +710,7 @@ importers:
       '@types/node':
         specifier: ^22.10.1
         version: 22.13.4
-      histoire:
+      longmo-histoire:
         specifier: workspace:*
         version: link:../histoire
       typescript:
@@ -753,7 +753,7 @@ importers:
       fs-extra:
         specifier: ^11.2.0
         version: 11.3.0
-      histoire:
+      longmo-histoire:
         specifier: workspace:*
         version: link:../histoire
       svelte:
@@ -799,7 +799,7 @@ importers:
       concurrently:
         specifier: ^9.1.0
         version: 9.1.2
-      histoire:
+      longmo-histoire:
         specifier: workspace:*
         version: link:../histoire
       typescript:
@@ -836,7 +836,7 @@ importers:
       globby:
         specifier: ^14.0.2
         version: 14.1.0
-      histoire:
+      longmo-histoire:
         specifier: workspace:*
         version: link:../histoire
       typescript:

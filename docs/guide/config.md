@@ -21,7 +21,7 @@ Example:
 
 ```ts
 // histoire.config.js
-import { defineConfig } from 'histoire'
+import { defineConfig } from 'longmo-histoire' 
 
 export default defineConfig({
   // your Histoire configuration
@@ -59,7 +59,7 @@ Sometimes you need to change some Vite configuration specifically for Histoire. 
 
 ```ts
 // histoire.config.js
-import { defineConfig } from 'histoire'
+import { defineConfig } from 'longmo-histoire' 
 
 export default defineConfig({
   vite: {
@@ -89,7 +89,7 @@ CommonJS modules must be specified in `vite.optimizeDeps.include` to work in Dev
 
 ```ts
 // histoire.config.js
-import { defineConfig } from 'histoire'
+import { defineConfig } from 'longmo-histoire' 
 
 export default defineConfig({
   vite: {
@@ -122,7 +122,7 @@ Some Vite plugins may not work well with Histoire - you can disabled them with t
 
 ```ts
 // histoire.config.js
-import { defineConfig } from 'histoire'
+import { defineConfig } from 'longmo-histoire' 
 
 export default defineConfig({
   viteIgnorePlugins: [
@@ -211,7 +211,7 @@ Histoire provides some builtin patterns to easily change the color of the app.
 ```ts
 // histoire.config.ts
 
-import { defaultColors } from 'histoire'
+import { defaultColors } from 'longmo-histoire' 
 
 export default defineConfig({
   theme: {

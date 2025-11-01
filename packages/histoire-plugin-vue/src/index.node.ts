@@ -1,4 +1,4 @@
-import type { Plugin } from 'histoire'
+import type { Plugin } from 'longmo-histoire' 
 import generateStoryCommand from './commands/generate-story.server.js'
 import { listComponentFiles } from './util/list-components.js'
 

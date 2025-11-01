@@ -1,4 +1,4 @@
-import type { PluginCommand } from 'histoire'
+import type { PluginCommand } from 'longmo-histoire' 
 import fs from 'node:fs'
 import launchEditor from 'launch-editor'
 import path from 'pathe'

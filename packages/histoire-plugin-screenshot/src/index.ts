@@ -1,5 +1,5 @@
 import type { FileOptions } from 'capture-website'
-import type { Plugin } from 'histoire'
+import type { Plugin } from 'longmo-histoire' 
 import { defu } from 'defu'
 import fs from 'fs-extra'
 import path from 'pathe'

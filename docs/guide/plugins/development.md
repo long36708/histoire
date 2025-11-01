@@ -96,7 +96,7 @@ Example `tsconfig.json`:
 Create a new `src/index.ts` file:
 
 ```ts
-import type { Plugin } from 'histoire'
+import type { Plugin } from 'longmo-histoire' 
 import { defu } from 'defu'
 
 export interface MyPluginOptions {
@@ -122,7 +122,7 @@ Usage of your plugin:
 ```js
 // In your histoire config
 
-import { defineConfig } from 'histoire'
+import { defineConfig } from 'longmo-histoire' 
 import { MyHistoirePlugin } from 'my-histoire-plugin'
 
 export default defineConfig({

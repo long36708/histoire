@@ -1,5 +1,5 @@
 import type { Nuxt } from '@nuxt/schema'
-import type { Plugin } from 'histoire'
+import type { Plugin } from 'longmo-histoire' 
 import type { UserConfig as ViteConfig } from 'vite'
 import { join } from 'node:path'
 import { fileURLToPath } from 'node:url'

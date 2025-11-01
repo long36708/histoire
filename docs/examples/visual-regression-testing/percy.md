@@ -10,7 +10,7 @@ Add the plugin in histoire config:
 
 ```js
 import { HstPercy } from '@histoire/plugin-percy'
-import { defineConfig } from 'histoire'
+import { defineConfig } from 'longmo-histoire' 
 
 export default defineConfig({
   plugins: [

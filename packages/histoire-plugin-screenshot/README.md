@@ -8,7 +8,7 @@ Add the plugin in histoire config:
 
 ```js
 import { HstScreenshot } from '@histoire/plugin-screenshot'
-import { defineConfig } from 'histoire'
+import { defineConfig } from 'longmo-histoire' 
 
 export default defineConfig({
   plugins: [
@@ -27,7 +27,7 @@ Alternatively, if you completely trust the content, you can disable sandboxing (
 ref. https://github.com/sindresorhus/capture-website#faq
 
 ```
-import { defineConfig } from 'histoire'
+import { defineConfig } from 'longmo-histoire' 
 import { HstScreenshot } from '@histoire/plugin-screenshot'
 
 export default defineConfig({

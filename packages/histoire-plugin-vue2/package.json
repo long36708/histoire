@@ -41,7 +41,7 @@
     "watch": "concurrently \"vite build --watch\" \"pnpm run build:types --watch\""
   },
   "peerDependencies": {
-    "histoire": "workspace:^",
+    "longmo-histoire": "workspace:^",
     "vue": "^2.7.8"
   },
   "dependencies": {
@@ -54,7 +54,7 @@
     "change-case": "^5.4.4",
     "concurrently": "^7.6.0",
     "globby": "^14.0.2",
-    "histoire": "workspace:*",
+    "longmo-histoire": "workspace:*",
     "typescript": "catalog:",
     "vite": "catalog:",
     "vue": "^2.7.16"

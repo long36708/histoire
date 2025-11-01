@@ -16,7 +16,7 @@
   "devDependencies": {
     "@histoire/plugin-vue": "workspace:*",
     "@vitejs/plugin-vue": "^5.2.1",
-    "histoire": "workspace:*",
+    "longmo-histoire": "workspace:*",
     "vite": "catalog:",
     "vite-plugin-vuetify": "2.0.4"
   }

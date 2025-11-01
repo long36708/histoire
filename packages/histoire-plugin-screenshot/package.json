@@ -27,7 +27,7 @@
     "watch": "tsc -d -w --sourceMap"
   },
   "peerDependencies": {
-    "histoire": "workspace:^"
+    "longmo-histoire": "workspace:^"
   },
   "dependencies": {
     "capture-website": "^4.2.0",
@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "@types/node": "^22.10.1",
-    "histoire": "workspace:*",
+    "longmo-histoire": "workspace:*",
     "typescript": "catalog:"
   }
 }

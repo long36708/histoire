@@ -15,7 +15,7 @@
     "@histoire/plugin-percy": "workspace:*",
     "@histoire/plugin-vue": "workspace:*",
     "@vitejs/plugin-vue": "^5.2.1",
-    "histoire": "workspace:*",
+    "longmo-histoire": "workspace:*",
     "vite": "catalog:"
   }
 }

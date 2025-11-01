@@ -1,5 +1,5 @@
-import type { Plugin } from 'histoire'
-import { defaultColors } from 'histoire'
+import type { Plugin } from 'longmo-histoire' 
+import { defaultColors } from 'longmo-histoire' 
 import generateStoryCommand from './commands/generate-story.server.js'
 import { listComponentFiles } from './util/list-components.js'
 

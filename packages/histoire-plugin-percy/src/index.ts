@@ -1,4 +1,4 @@
-import type { Plugin } from 'histoire'
+import type { Plugin } from 'longmo-histoire' 
 import type { Page, WaitForOptions } from 'puppeteer'
 import { createRequire } from 'node:module'
 import { fileURLToPath } from 'node:url'

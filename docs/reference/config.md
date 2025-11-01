@@ -118,7 +118,7 @@ Properties:
 - `storeColorScheme: boolean`: Enable persistence of the color scheme in the browser's local storage.
 
 ```ts
-import { defaultColors } from 'histoire'
+import { defaultColors } from 'longmo-histoire' 
 
 export default defineConfig({
   theme: {
