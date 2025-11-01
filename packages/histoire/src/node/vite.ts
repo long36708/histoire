@@ -107,7 +107,7 @@ export async function getViteConfigWithPlugins(isServer: boolean, ctx: Context):
           ],
           include: optimizeDeps([
             'flexsearch',
-            'shiki-es',
+            'shiki',
             // Shiki dependencies
             'vscode-oniguruma',
             'vscode-textmate',
@@ -154,7 +154,7 @@ export async function getViteConfigWithPlugins(isServer: boolean, ctx: Context):
     },
 
     options() {
-      this.meta.histoire = {
+      (this.meta as any).histoire = {
         isCollecting: isServer,
       }
     },
@@ -340,6 +340,12 @@ export async function getViteConfigWithPlugins(isServer: boolean, ctx: Context):
         }
       },
     })
+  }
+
+  for (const plugin of ctx.config.plugins) {
+    if (plugin.vitePlugins) {
+      await plugin.vitePlugins(plugins)
+    }
   }
 
   const viteConfig = mergeViteConfig(inlineConfig, {

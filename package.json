@@ -1,22 +1,24 @@
 {
   "name": "histoire-monorepo",
-  "version": "0.17.17",
+  "version": "1.0.0-alpha.4",
   "private": true,
-  "packageManager": "pnpm@9.7.1",
+  "packageManager": "pnpm@10.4.1+sha512.c753b6c3ad7afa13af388fa6d808035a008e30ea9993f58c6663e2bc5ff21679aa834db094987129aa4d488b86df57f7b634981b2f827cdcacc698cc0cfb88af",
   "repository": {
     "url": "https://github.com/Akryum/histoire.git",
     "type": "git"
   },
   "engines": {
-    "node": ">14.5.0"
+    "node": ">=22"
   },
   "scripts": {
     "lint": "eslint . --cache",
+    "lint:fix": "eslint . --fix --cache",
     "build": "pnpm run -r build",
     "watch": "pnpm run build && pnpm run -r --parallel --filter \"./packages/**\" watch",
     "test": "pnpm run -r --parallel --filter \"./packages/**\" test",
     "test:dev": "pnpm run -r --parallel --filter \"./packages/**\" test:dev",
-    "test:examples": "pnpm run -r --workspace-concurrency 1 --filter \"./examples/**\" test:examples",
+    "test:examples": "pnpm run -r --workspace-concurrency 1 --filter \"./examples/vue**\"  test:examples",
+    "test:examples:all": "pnpm run -r --workspace-concurrency 1 --filter \"./examples/**\" test:examples",
     "release": "pnpm run lint && pnpm run test && pnpm run build && sheep release -b main --force",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
@@ -28,15 +30,15 @@
     "@antfu/eslint-config": "^3.11.2",
     "@histoire/vendors": "workspace:*",
     "@iconify/vue": "^4.1.2",
-    "@vueuse/core": "^12.0.0",
-    "autoprefixer": "^10.4.20",
+    "@vueuse/core": "catalog:",
+    "autoprefixer": "catalog:",
     "eslint": "^9.16.0",
     "eslint-plugin-cypress": "^4.1.0",
     "floating-vue": "5.2.2",
-    "postcss": "^8.4.49",
+    "postcss": "catalog:",
     "rimraf": "^6.0.1",
-    "tailwindcss": "^3.4.16",
-    "typescript": "5.6.3",
+    "tailwindcss": "catalog:",
+    "typescript": "catalog:",
     "vitepress": "1.5.0",
     "vue-eslint-parser": "^9.4.3"
   },
@@ -56,9 +58,17 @@
         "eslint": "*",
         "eslint-plugin-promise": "*",
         "eslint-plugin-vue": "*",
-        "vite": "^6.0.1",
+        "vite": "^7.0.0",
         "vue": "*"
       }
-    }
+    },
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "cypress",
+      "esbuild",
+      "puppeteer",
+      "svelte-preprocess",
+      "vue-demi"
+    ]
   }
 }

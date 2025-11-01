@@ -1,7 +1,7 @@
 {
   "name": "histoire",
   "type": "module",
-  "version": "0.17.17",
+  "version": "1.0.0-alpha.4",
   "description": "A fast story book powered by Vite",
   "author": {
     "name": "Guillaume Chau"
@@ -43,7 +43,7 @@
     "test:dev": "vitest"
   },
   "peerDependencies": {
-    "vite": "^6.0.1"
+    "vite": "catalog:"
   },
   "dependencies": {
     "@akryum/tinypool": "^0.3.1",
@@ -72,17 +72,17 @@
     "pathe": "^1.1.2",
     "picocolors": "^1.1.1",
     "sade": "^1.8.1",
-    "shiki-es": "^0.14.0",
+    "shiki": "^3.0.0",
     "sirv": "^3.0.0",
-    "vite-node": "0.34.7"
+    "vite-node": "3.2.4"
   },
   "devDependencies": {
     "@types/fs-extra": "^11.0.4",
     "@types/node": "^22.10.1",
     "esbuild": "^0.24.0",
     "rollup": "^4.28.0",
-    "typescript": "5.6.3",
-    "vite": "^6.0.5",
+    "typescript": "catalog:",
+    "vite": "catalog:",
     "vitest": "0.34.6"
   }
 }

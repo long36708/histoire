@@ -1,3 +1,125 @@
+## v1.0.0-alpha.4
+
+[compare changes](https://github.com/Akryum/histoire/compare/v1.0.0-alpha.3...v1.0.0-alpha.4)
+
+### 🚀 Enhancements
+
+- Add CommonJS support ([#806](https://github.com/Akryum/histoire/pull/806))
+- Add plugin API hook vitePlugins ([#807](https://github.com/Akryum/histoire/pull/807))
+- Add style isolation ([#813](https://github.com/Akryum/histoire/pull/813))
+
+### ❤️ Contributors
+
+- Hugo ATTAL ([@hugoattal](http://github.com/hugoattal))
+
+## v1.0.0-alpha.3
+
+[compare changes](https://github.com/Akryum/histoire/compare/v1.0.0-alpha.2...v1.0.0-alpha.3)
+
+### 🚀 Enhancements
+
+- Add Vite 7 support ([#800](https://github.com/Akryum/histoire/pull/800))
+- Add host config to histoire dev ([#743](https://github.com/Akryum/histoire/pull/743))
+
+### 🩹 Fixes
+
+- Issue 407, add IntersectionObserver mock to Dom ([#730](https://github.com/Akryum/histoire/pull/730))
+- Don't import withDefaults anymore ([e83af06](https://github.com/Akryum/histoire/commit/e83af06))
+
+### 📖 Documentation
+
+- **story.md:** Fix typo ([#705](https://github.com/Akryum/histoire/pull/705))
+
+### 🌊 Types
+
+- **controls:** Allow null for modelValue ([#766](https://github.com/Akryum/histoire/pull/766))
+
+### 🏡 Chore
+
+- Update changelog ([158e013](https://github.com/Akryum/histoire/commit/158e013))
+- Use pnpm catalog ([#804](https://github.com/Akryum/histoire/pull/804))
+
+### ✅ Tests
+
+- **lint:** Fix ([cfd8da0](https://github.com/Akryum/histoire/commit/cfd8da0))
+
+### ❤️ Contributors
+
+- Guillaume Chau ([@Akryum](http://github.com/Akryum))
+- Andre ([@andre-brdoch](http://github.com/andre-brdoch))
+- Croatialu ([@croatialu](http://github.com/croatialu))
+- Kevin Detter ([@oikalyptus](http://github.com/oikalyptus))
+- Moussa Clarke <moussa@moussaclarke.dev>
+- Rim (Y Nguyen) ([@imrim12](http://github.com/imrim12))
+- Hugo ATTAL ([@hugoattal](http://github.com/hugoattal))
+
+## v1.0.0-alpha.2
+
+[compare changes](https://github.com/Akryum/histoire/compare/v1.0.0-alpha.1...v1.0.0-alpha.2)
+
+### 🩹 Fixes
+
+- **nuxt:** Do not auto-import idle callback polyfills ([#777](https://github.com/Akryum/histoire/pull/777))
+- update to shiki v1 [#683](https://github.com/histoire-dev/histoire/pull/683)
+- Add more packages to onlyBuiltsDependencies ([f96b0ef](https://github.com/Akryum/histoire/commit/f96b0ef))
+
+### 🏡 Chore
+
+- Update node and pnpm ([cf54a24](https://github.com/Akryum/histoire/commit/cf54a24))
+- Refresh lockfile ([184b555](https://github.com/Akryum/histoire/commit/184b555))
+- Update to pnpm 10 ([ffcdea5](https://github.com/Akryum/histoire/commit/ffcdea5))
+- Refresh deps ([c8e6108](https://github.com/Akryum/histoire/commit/c8e6108))
+- Hoist postcss packages ([cfb06fd](https://github.com/Akryum/histoire/commit/cfb06fd))
+
+### ✅ Tests
+
+  - **ci:** Remove nuxt and svelte from the CI test ([#781](https://github.com/Akryum/histoire/pull/781))
+
+### ❤️  Contributors
+
+- Guillaume Chau ([@Akryum](http://github.com/Akryum))
+- Hugo ATTAL ([@hugoattal](http://github.com/hugoattal))
+- Daniel Roe ([@danielroe](http://github.com/danielroe))
+- Harlan Wilton ([@harlan-zw](https://github.com/harlan-zw))
+
+## v1.0.0-alpha.1
+
+[compare changes](https://github.com/Akryum/histoire/compare/v0.17.17...v1.0.0-alpha.1)
+
+### 🚀 Enhancements
+
+- Support Vite 6 and update deps ([#770](https://github.com/Akryum/histoire/pull/770))
+
+### 🩹 Fixes
+
+- Make ResponsivePreset.height Type Nullable ([#722](https://github.com/Akryum/histoire/pull/722))
+- Handle ESM Tailwindconfigs ([#667](https://github.com/Akryum/histoire/pull/667), [#723](https://github.com/Akryum/histoire/pull/723))
+- Disable optimizer in vite-node for vite 6 compat ([#756](https://github.com/Akryum/histoire/pull/756))
+
+### 📖 Documentation
+
+- **lost-pixel:** Typo in the label ([#726](https://github.com/Akryum/histoire/pull/726))
+- Note about continuous releases ([4fd41ab](https://github.com/Akryum/histoire/commit/4fd41ab))
+- Switch to nightly.akryum.dev ([76bd44e](https://github.com/Akryum/histoire/commit/76bd44e))
+
+### 🏡 Chore
+
+- Generate declaration maps ([d139b28](https://github.com/Akryum/histoire/commit/d139b28))
+- Update node and pnpm ([1485149](https://github.com/Akryum/histoire/commit/1485149))
+
+### 🤖 CI
+
+- Continuous builds ([0c4a6ea](https://github.com/Akryum/histoire/commit/0c4a6ea))
+- Fix pnpm version ([5ca2939](https://github.com/Akryum/histoire/commit/5ca2939))
+
+### ❤️ Contributors
+
+- Hugo ATTAL ([@hugoattal](http://github.com/hugoattal))
+- 翠 / Green <green@sapphi.red>
+- Guillaume Chau ([@Akryum](http://github.com/Akryum))
+- Joachim Schwarm <joachim@schwarm.co>
+- Maarten Knijnenberg <m.knijnenberg@gmail.com>
+
 ## v0.17.17
 
 [compare changes](https://github.com/Akryum/histoire/compare/v0.17.16...v0.17.17)
