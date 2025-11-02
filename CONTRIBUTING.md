@@ -19,19 +19,19 @@ Contributing doesn't necessarily mean you need to write code and open Pull Reque
 
 This mono-repo contains the following packages:
 
-| Package | Description |
-| ------- | ----------- |
-| [histoire](./packages/histoire) | Main package |
-| [@histoire/app](./packages/histoire-app) | Pre-bundled UI |
-| [@histoire/controls](./packages/histoire-controls) | Builtin controls components |
-| [@histoire/controls-stories](./packages/histoire-controls) | Stories for builtin controls |
-| [@histoire/plugin-vue](./packages/histoire-plugin-vue) | Vue 3 integration |
-| [@histoire/plugin-vue2](./packages/histoire-plugin-vue) | Vue 2 integration |
-| [@histoire/plugin-nuxt](./packages/histoire-plugin-nuxt) | Nuxt 3 integration |
-| [@histoire/plugin-percy](./packages/histoire-plugin-percy) | Visual regression testing with Percy |
+| Package                                                              | Description |
+|----------------------------------------------------------------------| ----------- |
+| [histoire](./packages/histoire)                                      | Main package |
+| [@histoire/app](./packages/histoire-app)                             | Pre-bundled UI |
+| [@histoire/controls](./packages/histoire-controls)                   | Builtin controls components |
+| [@histoire/controls-stories](./packages/histoire-controls)           | Stories for builtin controls |
+| [@histoire/plugin-vue](./packages/histoire-plugin-vue)               | Vue 3 integration |
+| [histoire-plugin-vue2](./packages/histoire-plugin-vue2)              | Vue 2 integration |
+| [@histoire/plugin-nuxt](./packages/histoire-plugin-nuxt)             | Nuxt 3 integration |
+| [@histoire/plugin-percy](./packages/histoire-plugin-percy)           | Visual regression testing with Percy |
 | [@histoire/plugin-screenshot](./packages/histoire-plugin-screenshot) | Visual regression testing with simple screenshots |
-| [@histoire/shared](./packages/histoire-shared) | Shared utilities |
-| [@histoire/vendors](./packages/histoire-vendors) | Pre-bundled dependencies |
+| [@histoire/shared](./packages/histoire-shared)                       | Shared utilities |
+| [@histoire/vendors](./packages/histoire-vendors)                     | Pre-bundled dependencies |
 
 ## Local dev setup
 

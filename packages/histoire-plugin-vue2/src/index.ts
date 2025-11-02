@@ -3,7 +3,7 @@ import type { Story, Variant } from '@histoire/shared'
 
 export function HstVue(): Plugin {
   return {
-    name: '@histoire/plugin-vue2',
+    name: 'histoire-plugin-vue2',
 
     defaultConfig() {
       return {
@@ -19,7 +19,7 @@ export function HstVue(): Plugin {
 
     supportPlugin: {
       id: 'vue2',
-      moduleName: '@histoire/plugin-vue2',
+      moduleName: 'histoire-plugin-vue2',
       setupFn: 'setupVue2',
       importStoryComponent: (file, index) => `const Comp${index} = () => import(${JSON.stringify(file.moduleId)})`,
     },

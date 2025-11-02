@@ -38,21 +38,21 @@ Histoire is an Open-Source project supported by our sponsors - thank you!
 
 ## Installation
 
-Install the `histoire` and `@histoire/plugin-vue2` packages into your project:
+Install the `histoire` and `histoire-plugin-vue2` packages into your project:
 
 ```shell
-pnpm i -D histoire @histoire/plugin-vue2
+pnpm i -D histoire histoire-plugin-vue2
 # OR
-npm i -D histoire @histoire/plugin-vue2
+npm i -D histoire histoire-plugin-vue2
 # OR
-yarn add -D histoire @histoire/plugin-vue2
+yarn add -D histoire histoire-plugin-vue2
 ```
 
 Create an `histoire.config.js` or `histoire.config.ts` file in your project root to enable the Vue plugin:
 
 ```ts
 import { defineConfig } from 'longmo-histoire' 
-import { HstVue } from '@histoire/plugin-vue2'
+import { HstVue } from 'histoire-plugin-vue2'
 
 export default defineConfig({
   plugins: [

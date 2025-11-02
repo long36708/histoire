@@ -7,7 +7,7 @@ You can define a setup function globally in your setup file defined by the `setu
 For Vue 2, it must be called `setupVue2`. Histoire provides an optional `defineSetupVue2` helper to have better types in your IDE:
 
 ```ts
-import { defineSetupVue2 } from '@histoire/plugin-vue2'
+import { defineSetupVue2 } from 'histoire-plugin-vue2'
 import Vue from 'vue'
 import Vuei18n from 'vue-i18n'
 import { store } from './store'

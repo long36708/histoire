@@ -1,5 +1,5 @@
 import { defineConfig } from 'longmo-histoire' 
-import { HstVue } from '@histoire/plugin-vue2'
+import { HstVue } from 'histoire-plugin-vue2'
 
 export default defineConfig({
   plugins: [

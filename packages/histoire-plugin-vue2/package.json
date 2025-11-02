@@ -1,5 +1,5 @@
 {
-  "name": "@histoire/plugin-vue2",
+  "name": "histoire-plugin-vue2",
   "type": "module",
   "version": "1.0.0-alpha.4",
   "description": "Histoire plugin for Vue.js 2 support",
