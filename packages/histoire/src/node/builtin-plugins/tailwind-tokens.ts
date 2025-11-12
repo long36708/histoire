@@ -1,4 +1,4 @@
-import type { Plugin, PluginApiBase } from '@histoire/shared'
+import type { Plugin, PluginApiBase } from 'histoire-shared'
 import { findUp } from '../util/find-up.js'
 import { getInjectedImport } from '../util/vendors.js'
 
@@ -86,7 +86,7 @@ export function tailwindTokens(options: TailwindTokensOptions = {}): Plugin {
 function storyTemplate(tailwindConfig: any) {
   // import 'histoire-style'
   // import './style.css'
-  return `import { createApp, h, markRaw, ref } from ${getInjectedImport('@histoire/vendors/vue')}
+  return `import { createApp, h, markRaw, ref } from ${getInjectedImport('histoire-vendors/vue')}
 import {
   HstColorShades,
   HstTokenList,
@@ -94,7 +94,7 @@ import {
   HstText,
   HstTextarea,
   HstNumber,
-} from ${getInjectedImport('@histoire/controls')}
+} from ${getInjectedImport('histoire-controls')}
 
 const config = markRaw(${JSON.stringify(tailwindConfig, null, 2)})
 const search = ref('')

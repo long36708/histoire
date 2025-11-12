@@ -1,10 +1,10 @@
 /* eslint-disable prefer-const */
 // @TODO remove @ts-ignore
 
+import type { Variant } from 'histoire-shared'
 import type { VNode } from 'vue'
 import { kebabCase, pascalCase } from 'change-case'
-import { createAutoBuildingObject, indent, serializeJs, voidElements } from '@histoire/shared'
-import type { Variant } from '@histoire/shared'
+import { createAutoBuildingObject, indent, serializeJs, voidElements } from 'histoire-shared'
 
 export async function generateSourceCode(variant: Variant) {
   const vnode = variant.slots().default?.({ state: variant.state ?? {} }) ?? []
@@ -126,7 +126,7 @@ async function printVNode(vnode: VNode, propsOverrides: Record<string, any> = nu
         }
         else if (typeof value === 'function') {
           let code = cleanupExpression(value.toString().replace(/'/g, '\\\'').replace(/"/g, '\''))
-          const testResult = /function ([^\s]+)\(/.exec(code)
+          const testResult = /function (\S+)\(/.exec(code)
           if (testResult) {
             // Function name only
             serialized = [testResult[1]]

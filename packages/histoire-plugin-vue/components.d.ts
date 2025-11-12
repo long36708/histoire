@@ -6,7 +6,7 @@ import type {
   Variant,
   StoryMeta,
   VariantMeta,
-} from '@histoire/shared'
+} from 'histoire-shared'
 import type {
   HstButton,
   HstButtonGroup,
@@ -24,7 +24,7 @@ import type {
   HstTokenGrid,
   HstCopyIcon,
   HstColorSelect,
-} from '@histoire/controls'
+} from 'histoire-controls'
 
 // Utils
 

@@ -1,5 +1,5 @@
-import type { Plugin } from 'longmo-histoire' 
-import type { Story, Variant } from '@histoire/shared'
+import type { Story, Variant } from 'histoire-shared'
+import type { Plugin } from 'longmo-histoire'
 
 export function HstVue(): Plugin {
   return {

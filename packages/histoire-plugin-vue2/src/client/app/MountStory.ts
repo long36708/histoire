@@ -1,7 +1,8 @@
-import Vue, { h, provide, ref } from 'vue'
+import type { Story } from 'histoire-shared'
 import type {
   PropType as _PropType,
-} from '@histoire/vendors/vue'
+} from 'histoire-vendors/vue'
+import type { Vue2StorySetupApi, Vue2StorySetupHandler } from '../../index.js'
 import {
   defineComponent as _defineComponent,
   h as _h,
@@ -9,13 +10,12 @@ import {
   onUnmounted as _onUnmounted,
   ref as _ref,
   watch as _watch,
-} from '@histoire/vendors/vue'
-import type { Story } from '@histoire/shared'
-// @ts-expect-error virtual module id
-import * as setup from 'virtual:$histoire-setup'
+} from 'histoire-vendors/vue'
 // @ts-expect-error virtual module id
 import * as generatedSetup from 'virtual:$histoire-generated-global-setup'
-import type { Vue2StorySetupApi, Vue2StorySetupHandler } from '../../index.js'
+// @ts-expect-error virtual module id
+import * as setup from 'virtual:$histoire-setup'
+import Vue, { h, provide, ref } from 'vue'
 import { registerGlobalComponents } from './global-components.js'
 import { RouterLinkStub } from './RouterLinkStub'
 

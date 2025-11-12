@@ -1,8 +1,8 @@
 <script lang="ts" setup>
-import type { AutoPropComponentDefinition, PropDefinition } from '@histoire/shared'
+import type { AutoPropComponentDefinition, PropDefinition } from 'histoire-shared'
 import type { Variant } from '../../types'
-import { HstCheckbox, HstJson, HstNumber, HstText } from '@histoire/controls'
 import { Icon } from '@iconify/vue'
+import { HstCheckbox, HstJson, HstNumber, HstText } from 'histoire-controls'
 import { computed } from 'vue'
 
 const props = defineProps<{

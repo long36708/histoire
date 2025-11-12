@@ -1,7 +1,7 @@
 {
-  "name": "@histoire/plugin-nuxt",
+  "name": "histoire-plugin-nuxt",
   "type": "module",
-  "version": "1.0.0-alpha.4",
+  "version": "1.0.0-alpha.5",
   "description": "Histoire plugin to integrate with Nuxt 3",
   "author": {
     "name": "Guillaume Chau"
@@ -27,7 +27,7 @@
     "watch": "tsc -d -w --sourceMap"
   },
   "peerDependencies": {
-    "@histoire/plugin-vue": "workspace:^",
+    "histoire-plugin-vue": "workspace:^",
     "longmo-histoire": "workspace:^",
     "nuxt": "^3.0.0-rc.11"
   },

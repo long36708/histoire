@@ -13,8 +13,8 @@
     "test:examples": "pnpm run story:build && pnpm run ci"
   },
   "devDependencies": {
-    "@histoire/plugin-nuxt": "workspace:*",
-    "@histoire/plugin-vue": "workspace:*",
+    "histoire-plugin-nuxt": "workspace:*",
+    "histoire-plugin-vue": "workspace:*",
     "@nuxtjs/tailwindcss": "^6.12.2",
     "cypress": "^13.16.1",
     "longmo-histoire": "workspace:*",

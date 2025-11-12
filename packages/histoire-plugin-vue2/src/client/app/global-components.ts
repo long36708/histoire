@@ -1,16 +1,16 @@
-import Vue, { computed, defineComponent, h, onBeforeUnmount, onMounted, onUpdated, ref } from 'vue'
 import type {
   App as _App,
-} from '@histoire/vendors/vue'
+} from 'histoire-vendors/vue'
+import { components } from 'histoire-controls'
 import {
   createApp as _createApp,
   h as _h,
   reactive as _reactive,
-} from '@histoire/vendors/vue'
-import { components } from '@histoire/controls'
+} from 'histoire-vendors/vue'
+import Vue, { computed, defineComponent, h, onBeforeUnmount, onMounted, onUpdated, ref } from 'vue'
 import Story from './Story'
-import Variant from './Variant'
 import { syncStateBundledAndExternal } from './util.js'
+import Variant from './Variant'
 
 export function registerGlobalComponents(_app) {
   Vue.config.productionTip = false

@@ -1,7 +1,7 @@
+import type { Story } from 'histoire-shared'
 import type { PropType, VNode } from 'vue'
+import { omitInheritStoryProps } from 'histoire-shared'
 import { defineComponent, getCurrentInstance, h, inject, provide, reactive } from 'vue'
-import type { Story } from '@histoire/shared'
-import { omitInheritStoryProps } from '@histoire/shared'
 import Variant from './Variant'
 
 export default Object.assign(defineComponent({

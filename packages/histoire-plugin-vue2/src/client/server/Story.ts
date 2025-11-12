@@ -1,6 +1,6 @@
+import type { ServerStory, ServerStoryFile, ServerVariant } from 'histoire-shared'
 import type { PropType } from 'vue'
 import { defineComponent, h, inject, onMounted, provide } from 'vue'
-import type { ServerStory, ServerStoryFile, ServerVariant } from '@histoire/shared'
 
 // const stub = { name: 'StubbedComponent', render: () => null }
 

@@ -35,9 +35,6 @@ importers:
       '@antfu/eslint-config':
         specifier: ^3.11.2
         version: 3.16.0(@typescript-eslint/utils@8.24.1(eslint@9.20.1(jiti@2.4.2))(typescript@5.6.3))(@vue/compiler-sfc@3.5.13)(eslint@9.20.1(jiti@2.4.2))(typescript@5.6.3)(vitest@0.34.6(jsdom@25.0.1)(sass@1.85.0)(terser@5.39.0))
-      '@histoire/vendors':
-        specifier: workspace:*
-        version: link:packages/histoire-vendors
       '@iconify/vue':
         specifier: ^4.1.2
         version: 4.3.0(vue@3.5.13(typescript@5.6.3))
@@ -56,6 +53,9 @@ importers:
       floating-vue:
         specifier: 5.2.2
         version: 5.2.2(@nuxt/kit@3.15.4(magicast@0.3.5))(vue@3.5.13(typescript@5.6.3))
+      histoire-vendors:
+        specifier: workspace:*
+        version: link:packages/histoire-vendors
       postcss:
         specifier: 'catalog:'
         version: 8.5.6
@@ -83,18 +83,18 @@ importers:
 
   examples/nuxt3:
     devDependencies:
-      '@histoire/plugin-nuxt':
-        specifier: workspace:*
-        version: link:../../packages/histoire-plugin-nuxt
-      '@histoire/plugin-vue':
-        specifier: workspace:*
-        version: link:../../packages/histoire-plugin-vue
       '@nuxtjs/tailwindcss':
         specifier: ^6.12.2
         version: 6.13.1(magicast@0.3.5)
       cypress:
         specifier: ^13.16.1
         version: 13.17.0
+      histoire-plugin-nuxt:
+        specifier: workspace:*
+        version: link:../../packages/histoire-plugin-nuxt
+      histoire-plugin-vue:
+        specifier: workspace:*
+        version: link:../../packages/histoire-plugin-vue
       longmo-histoire:
         specifier: workspace:*
         version: link:../../packages/histoire
@@ -114,15 +114,15 @@ importers:
         specifier: ^4.2.7
         version: 4.2.19
     devDependencies:
-      '@histoire/plugin-svelte':
-        specifier: workspace:*
-        version: link:../../packages/histoire-plugin-svelte
       '@sveltejs/vite-plugin-svelte':
         specifier: ^3.0.2
         version: 3.1.2(svelte@4.2.19)(vite@5.4.14(@types/node@22.13.4)(sass@1.85.0)(terser@5.39.0))
       cypress:
         specifier: ^13.16.1
         version: 13.17.0
+      histoire-plugin-svelte:
+        specifier: workspace:*
+        version: link:../../packages/histoire-plugin-svelte
       longmo-histoire:
         specifier: workspace:*
         version: link:../../packages/histoire
@@ -145,9 +145,6 @@ importers:
         specifier: ^1.0.2
         version: 1.0.2
     devDependencies:
-      '@histoire/plugin-svelte':
-        specifier: workspace:*
-        version: link:../../packages/histoire-plugin-svelte
       '@sveltejs/adapter-auto':
         specifier: ^3.3.1
         version: 3.3.1(@sveltejs/kit@2.17.2(@sveltejs/vite-plugin-svelte@3.1.2(svelte@5.20.2)(vite@7.0.0(@types/node@22.13.4)(jiti@2.4.2)(sass@1.85.0)(terser@5.39.0)(yaml@2.7.0)))(svelte@5.20.2)(vite@7.0.0(@types/node@22.13.4)(jiti@2.4.2)(sass@1.85.0)(terser@5.39.0)(yaml@2.7.0)))
@@ -157,6 +154,9 @@ importers:
       '@types/cookie':
         specifier: ^1.0.0
         version: 1.0.0
+      histoire-plugin-svelte:
+        specifier: workspace:*
+        version: link:../../packages/histoire-plugin-svelte
       longmo-histoire:
         specifier: workspace:*
         version: link:../../packages/histoire
@@ -213,15 +213,6 @@ importers:
         specifier: ^3.5.13
         version: 3.5.13(typescript@5.6.3)
     devDependencies:
-      '@histoire/app':
-        specifier: workspace:*
-        version: link:../../packages/histoire-app
-      '@histoire/plugin-vue':
-        specifier: workspace:*
-        version: link:../../packages/histoire-plugin-vue
-      '@histoire/vendors':
-        specifier: workspace:*
-        version: link:../../packages/histoire-vendors
       '@vitejs/plugin-vue':
         specifier: ^5.2.1
         version: 5.2.1(vite@7.0.0(@types/node@22.13.4)(jiti@2.4.2)(sass@1.85.0)(terser@5.39.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.6.3))
@@ -231,6 +222,15 @@ importers:
       globby:
         specifier: ^14.0.2
         version: 14.1.0
+      histoire-app:
+        specifier: workspace:*
+        version: link:../../packages/histoire-app
+      histoire-plugin-vue:
+        specifier: workspace:*
+        version: link:../../packages/histoire-plugin-vue
+      histoire-vendors:
+        specifier: workspace:*
+        version: link:../../packages/histoire-vendors
       longmo-histoire:
         specifier: workspace:*
         version: link:../../packages/histoire
@@ -256,15 +256,15 @@ importers:
         specifier: ^3.5.13
         version: 3.5.13(typescript@5.6.3)
     devDependencies:
-      '@histoire/plugin-percy':
-        specifier: workspace:*
-        version: link:../../packages/histoire-plugin-percy
-      '@histoire/plugin-vue':
-        specifier: workspace:*
-        version: link:../../packages/histoire-plugin-vue
       '@vitejs/plugin-vue':
         specifier: ^5.2.1
         version: 5.2.1(vite@7.0.0(@types/node@22.13.4)(jiti@2.4.2)(sass@1.85.0)(terser@5.39.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.6.3))
+      histoire-plugin-percy:
+        specifier: workspace:*
+        version: link:../../packages/histoire-plugin-percy
+      histoire-plugin-vue:
+        specifier: workspace:*
+        version: link:../../packages/histoire-plugin-vue
       longmo-histoire:
         specifier: workspace:*
         version: link:../../packages/histoire
@@ -278,15 +278,15 @@ importers:
         specifier: ^3.5.13
         version: 3.5.13(typescript@5.6.3)
     devDependencies:
-      '@histoire/plugin-screenshot':
-        specifier: workspace:*
-        version: link:../../packages/histoire-plugin-screenshot
-      '@histoire/plugin-vue':
-        specifier: workspace:*
-        version: link:../../packages/histoire-plugin-vue
       '@vitejs/plugin-vue':
         specifier: ^5.2.1
         version: 5.2.1(vite@7.0.0(@types/node@22.13.4)(jiti@2.4.2)(sass@1.85.0)(terser@5.39.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.6.3))
+      histoire-plugin-screenshot:
+        specifier: workspace:*
+        version: link:../../packages/histoire-plugin-screenshot
+      histoire-plugin-vue:
+        specifier: workspace:*
+        version: link:../../packages/histoire-plugin-vue
       longmo-histoire:
         specifier: workspace:*
         version: link:../../packages/histoire
@@ -300,12 +300,12 @@ importers:
         specifier: ^3.5.13
         version: 3.5.13(typescript@5.6.3)
     devDependencies:
-      '@histoire/plugin-vue':
-        specifier: workspace:*
-        version: link:../../packages/histoire-plugin-vue
       '@vitejs/plugin-vue':
         specifier: ^5.2.1
         version: 5.2.1(vite@7.0.0(@types/node@22.13.4)(jiti@2.4.2)(sass@1.85.0)(terser@5.39.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.6.3))
+      histoire-plugin-vue:
+        specifier: workspace:*
+        version: link:../../packages/histoire-plugin-vue
       longmo-histoire:
         specifier: workspace:*
         version: link:../../packages/histoire
@@ -325,12 +325,12 @@ importers:
         specifier: ^3.7.5
         version: 3.7.13(typescript@5.6.3)(vite-plugin-vuetify@2.0.4)(vue@3.5.13(typescript@5.6.3))
     devDependencies:
-      '@histoire/plugin-vue':
-        specifier: workspace:*
-        version: link:../../packages/histoire-plugin-vue
       '@vitejs/plugin-vue':
         specifier: ^5.2.1
         version: 5.2.1(vite@7.0.0(@types/node@22.13.4)(jiti@2.4.2)(sass@1.85.0)(terser@5.39.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.6.3))
+      histoire-plugin-vue:
+        specifier: workspace:*
+        version: link:../../packages/histoire-plugin-vue
       longmo-histoire:
         specifier: workspace:*
         version: link:../../packages/histoire
@@ -346,18 +346,6 @@ importers:
       '@akryum/tinypool':
         specifier: ^0.3.1
         version: 0.3.1
-      '@histoire/app':
-        specifier: workspace:^
-        version: link:../histoire-app
-      '@histoire/controls':
-        specifier: workspace:^
-        version: link:../histoire-controls
-      '@histoire/shared':
-        specifier: workspace:^
-        version: link:../histoire-shared
-      '@histoire/vendors':
-        specifier: workspace:^
-        version: link:../histoire-vendors
       '@types/markdown-it':
         specifier: ^14.1.2
         version: 14.1.2
@@ -388,6 +376,18 @@ importers:
       gray-matter:
         specifier: ^4.0.3
         version: 4.0.3
+      histoire-app:
+        specifier: workspace:^
+        version: link:../histoire-app
+      histoire-controls:
+        specifier: workspace:^
+        version: link:../histoire-controls
+      histoire-shared:
+        specifier: workspace:^
+        version: link:../histoire-shared
+      histoire-vendors:
+        specifier: workspace:^
+        version: link:../histoire-vendors
       jiti:
         specifier: ^2.4.1
         version: 2.4.2
@@ -455,18 +455,18 @@ importers:
 
   packages/histoire-app:
     dependencies:
-      '@histoire/controls':
-        specifier: workspace:^
-        version: link:../histoire-controls
-      '@histoire/shared':
-        specifier: workspace:^
-        version: link:../histoire-shared
-      '@histoire/vendors':
-        specifier: workspace:^
-        version: link:../histoire-vendors
       fuse.js:
         specifier: ^7.0.0
         version: 7.1.0
+      histoire-controls:
+        specifier: workspace:^
+        version: link:../histoire-controls
+      histoire-shared:
+        specifier: workspace:^
+        version: link:../histoire-shared
+      histoire-vendors:
+        specifier: workspace:^
+        version: link:../histoire-vendors
       shiki:
         specifier: ^3.0.0
         version: 3.0.0
@@ -543,10 +543,10 @@ importers:
       '@codemirror/view':
         specifier: ^6.35.0
         version: 6.36.3
-      '@histoire/shared':
+      histoire-shared:
         specifier: workspace:^
         version: link:../histoire-shared
-      '@histoire/vendors':
+      histoire-vendors:
         specifier: workspace:^
         version: link:../histoire-vendors
     devDependencies:
@@ -604,19 +604,19 @@ importers:
 
   packages/histoire-controls-stories:
     dependencies:
-      '@histoire/controls':
+      histoire-controls:
         specifier: workspace:*
         version: link:../histoire-controls
       vue:
         specifier: ^3.5.13
         version: 3.5.13(typescript@5.6.3)
     devDependencies:
-      '@histoire/plugin-vue':
-        specifier: workspace:*
-        version: link:../histoire-plugin-vue
       '@vitejs/plugin-vue':
         specifier: ^5.2.1
         version: 5.2.1(vite@7.0.0(@types/node@22.13.4)(jiti@2.4.2)(sass@1.85.0)(terser@5.39.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.6.3))
+      histoire-plugin-vue:
+        specifier: workspace:*
+        version: link:../histoire-plugin-vue
       longmo-histoire:
         specifier: workspace:*
         version: link:../histoire
@@ -626,9 +626,6 @@ importers:
 
   packages/histoire-plugin-nuxt:
     dependencies:
-      '@histoire/plugin-vue':
-        specifier: workspace:^
-        version: link:../histoire-plugin-vue
       '@nuxt/kit':
         specifier: ^3.14.1592
         version: 3.15.4(magicast@0.3.5)
@@ -638,6 +635,9 @@ importers:
       h3:
         specifier: ^1.13.0
         version: 1.15.0
+      histoire-plugin-vue:
+        specifier: workspace:^
+        version: link:../histoire-plugin-vue
       nuxt:
         specifier: ^3.0.0-rc.11
         version: 3.15.4(@parcel/watcher@2.5.1)(@types/node@22.13.4)(db0@0.2.4)(eslint@9.20.1(jiti@2.4.2))(ioredis@5.5.0)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.44.1)(sass@1.85.0)(terser@5.39.0)(typescript@5.6.3)(vite@7.0.0(@types/node@22.13.4)(jiti@2.4.2)(sass@1.85.0)(terser@5.39.0)(yaml@2.7.0))(yaml@2.7.0)
@@ -719,21 +719,21 @@ importers:
 
   packages/histoire-plugin-svelte:
     dependencies:
-      '@histoire/controls':
-        specifier: workspace:^
-        version: link:../histoire-controls
-      '@histoire/shared':
-        specifier: workspace:^
-        version: link:../histoire-shared
-      '@histoire/vendors':
-        specifier: workspace:^
-        version: link:../histoire-vendors
       change-case:
         specifier: ^5.4.4
         version: 5.4.4
       globby:
         specifier: ^14.0.2
         version: 14.1.0
+      histoire-controls:
+        specifier: workspace:^
+        version: link:../histoire-controls
+      histoire-shared:
+        specifier: workspace:^
+        version: link:../histoire-shared
+      histoire-vendors:
+        specifier: workspace:^
+        version: link:../histoire-vendors
       launch-editor:
         specifier: ^2.9.1
         version: 2.10.0
@@ -771,21 +771,21 @@ importers:
 
   packages/histoire-plugin-vue:
     dependencies:
-      '@histoire/controls':
-        specifier: workspace:^
-        version: link:../histoire-controls
-      '@histoire/shared':
-        specifier: workspace:^
-        version: link:../histoire-shared
-      '@histoire/vendors':
-        specifier: workspace:^
-        version: link:../histoire-vendors
       change-case:
         specifier: ^5.4.4
         version: 5.4.4
       globby:
         specifier: ^14.0.2
         version: 14.1.0
+      histoire-controls:
+        specifier: workspace:^
+        version: link:../histoire-controls
+      histoire-shared:
+        specifier: workspace:^
+        version: link:../histoire-shared
+      histoire-vendors:
+        specifier: workspace:^
+        version: link:../histoire-vendors
       launch-editor:
         specifier: ^2.9.1
         version: 2.10.0
@@ -814,13 +814,13 @@ importers:
 
   packages/histoire-plugin-vue2:
     dependencies:
-      '@histoire/controls':
+      histoire-controls:
         specifier: workspace:^
         version: link:../histoire-controls
-      '@histoire/shared':
+      histoire-shared:
         specifier: workspace:^
         version: link:../histoire-shared
-      '@histoire/vendors':
+      histoire-vendors:
         specifier: workspace:^
         version: link:../histoire-vendors
     devDependencies:
@@ -851,9 +851,6 @@ importers:
 
   packages/histoire-shared:
     dependencies:
-      '@histoire/vendors':
-        specifier: workspace:^
-        version: link:../histoire-vendors
       '@types/fs-extra':
         specifier: ^11.0.4
         version: 11.0.4
@@ -863,6 +860,9 @@ importers:
       chokidar:
         specifier: ^4.0.1
         version: 4.0.3
+      histoire-vendors:
+        specifier: workspace:^
+        version: link:../histoire-vendors
       pathe:
         specifier: ^1.1.2
         version: 1.1.2
@@ -2062,42 +2062,36 @@ packages:
     engines: {node: '>= 10.0.0'}
     cpu: [arm]
     os: [linux]
-    libc: [glibc]
 
   '@parcel/watcher-linux-arm-musl@2.5.1':
     resolution: {integrity: sha512-6E+m/Mm1t1yhB8X412stiKFG3XykmgdIOqhjWj+VL8oHkKABfu/gjFj8DvLrYVHSBNC+/u5PeNrujiSQ1zwd1Q==}
     engines: {node: '>= 10.0.0'}
     cpu: [arm]
     os: [linux]
-    libc: [musl]
 
   '@parcel/watcher-linux-arm64-glibc@2.5.1':
     resolution: {integrity: sha512-LrGp+f02yU3BN9A+DGuY3v3bmnFUggAITBGriZHUREfNEzZh/GO06FF5u2kx8x+GBEUYfyTGamol4j3m9ANe8w==}
     engines: {node: '>= 10.0.0'}
     cpu: [arm64]
     os: [linux]
-    libc: [glibc]
 
   '@parcel/watcher-linux-arm64-musl@2.5.1':
     resolution: {integrity: sha512-cFOjABi92pMYRXS7AcQv9/M1YuKRw8SZniCDw0ssQb/noPkRzA+HBDkwmyOJYp5wXcsTrhxO0zq1U11cK9jsFg==}
     engines: {node: '>= 10.0.0'}
     cpu: [arm64]
     os: [linux]
-    libc: [musl]
 
   '@parcel/watcher-linux-x64-glibc@2.5.1':
     resolution: {integrity: sha512-GcESn8NZySmfwlTsIur+49yDqSny2IhPeZfXunQi48DMugKeZ7uy1FX83pO0X22sHntJ4Ub+9k34XQCX+oHt2A==}
     engines: {node: '>= 10.0.0'}
     cpu: [x64]
     os: [linux]
-    libc: [glibc]
 
   '@parcel/watcher-linux-x64-musl@2.5.1':
     resolution: {integrity: sha512-n0E2EQbatQ3bXhcH2D1XIAANAcTZkQICBPVaxMeaCVBtOpBZpWJuf7LwyWPSBDITb7In8mqQgJ7gH8CILCURXg==}
     engines: {node: '>= 10.0.0'}
     cpu: [x64]
     os: [linux]
-    libc: [musl]
 
   '@parcel/watcher-wasm@2.5.1':
     resolution: {integrity: sha512-RJxlQQLkaMMIuWRozy+z2vEqbaQlCuaCgVZIUCzQLYggY22LZbP5Y1+ia+FD724Ids9e+XIyOLXLrLgQSHIthw==}
@@ -2315,127 +2309,106 @@ packages:
     resolution: {integrity: sha512-A4iphFGNkWRd+5m3VIGuqHnG3MVnqKe7Al57u9mwgbyZ2/xF9Jio72MaY7xxh+Y87VAHmGQr73qoKL9HPbXj1g==}
     cpu: [arm]
     os: [linux]
-    libc: [glibc]
 
   '@rollup/rollup-linux-arm-gnueabihf@4.44.1':
     resolution: {integrity: sha512-n0edDmSHlXFhrlmTK7XBuwKlG5MbS7yleS1cQ9nn4kIeW+dJH+ExqNgQ0RrFRew8Y+0V/x6C5IjsHrJmiHtkxQ==}
     cpu: [arm]
     os: [linux]
-    libc: [glibc]
 
   '@rollup/rollup-linux-arm-musleabihf@4.34.8':
     resolution: {integrity: sha512-S0lqKLfTm5u+QTxlFiAnb2J/2dgQqRy/XvziPtDd1rKZFXHTyYLoVL58M/XFwDI01AQCDIevGLbQrMAtdyanpA==}
     cpu: [arm]
     os: [linux]
-    libc: [musl]
 
   '@rollup/rollup-linux-arm-musleabihf@4.44.1':
     resolution: {integrity: sha512-8WVUPy3FtAsKSpyk21kV52HCxB+me6YkbkFHATzC2Yd3yuqHwy2lbFL4alJOLXKljoRw08Zk8/xEj89cLQ/4Nw==}
     cpu: [arm]
     os: [linux]
-    libc: [musl]
 
   '@rollup/rollup-linux-arm64-gnu@4.34.8':
     resolution: {integrity: sha512-jpz9YOuPiSkL4G4pqKrus0pn9aYwpImGkosRKwNi+sJSkz+WU3anZe6hi73StLOQdfXYXC7hUfsQlTnjMd3s1A==}
     cpu: [arm64]
     os: [linux]
-    libc: [glibc]
 
   '@rollup/rollup-linux-arm64-gnu@4.44.1':
     resolution: {integrity: sha512-yuktAOaeOgorWDeFJggjuCkMGeITfqvPgkIXhDqsfKX8J3jGyxdDZgBV/2kj/2DyPaLiX6bPdjJDTu9RB8lUPQ==}
     cpu: [arm64]
     os: [linux]
-    libc: [glibc]
 
   '@rollup/rollup-linux-arm64-musl@4.34.8':
     resolution: {integrity: sha512-KdSfaROOUJXgTVxJNAZ3KwkRc5nggDk+06P6lgi1HLv1hskgvxHUKZ4xtwHkVYJ1Rep4GNo+uEfycCRRxht7+Q==}
     cpu: [arm64]
     os: [linux]
-    libc: [musl]
 
   '@rollup/rollup-linux-arm64-musl@4.44.1':
     resolution: {integrity: sha512-W+GBM4ifET1Plw8pdVaecwUgxmiH23CfAUj32u8knq0JPFyK4weRy6H7ooxYFD19YxBulL0Ktsflg5XS7+7u9g==}
     cpu: [arm64]
     os: [linux]
-    libc: [musl]
 
   '@rollup/rollup-linux-loongarch64-gnu@4.34.8':
     resolution: {integrity: sha512-NyF4gcxwkMFRjgXBM6g2lkT58OWztZvw5KkV2K0qqSnUEqCVcqdh2jN4gQrTn/YUpAcNKyFHfoOZEer9nwo6uQ==}
     cpu: [loong64]
     os: [linux]
-    libc: [glibc]
 
   '@rollup/rollup-linux-loongarch64-gnu@4.44.1':
     resolution: {integrity: sha512-1zqnUEMWp9WrGVuVak6jWTl4fEtrVKfZY7CvcBmUUpxAJ7WcSowPSAWIKa/0o5mBL/Ij50SIf9tuirGx63Ovew==}
     cpu: [loong64]
     os: [linux]
-    libc: [glibc]
 
   '@rollup/rollup-linux-powerpc64le-gnu@4.34.8':
     resolution: {integrity: sha512-LMJc999GkhGvktHU85zNTDImZVUCJ1z/MbAJTnviiWmmjyckP5aQsHtcujMjpNdMZPT2rQEDBlJfubhs3jsMfw==}
     cpu: [ppc64]
     os: [linux]
-    libc: [glibc]
 
   '@rollup/rollup-linux-powerpc64le-gnu@4.44.1':
     resolution: {integrity: sha512-Rl3JKaRu0LHIx7ExBAAnf0JcOQetQffaw34T8vLlg9b1IhzcBgaIdnvEbbsZq9uZp3uAH+JkHd20Nwn0h9zPjA==}
     cpu: [ppc64]
     os: [linux]
-    libc: [glibc]
 
   '@rollup/rollup-linux-riscv64-gnu@4.34.8':
     resolution: {integrity: sha512-xAQCAHPj8nJq1PI3z8CIZzXuXCstquz7cIOL73HHdXiRcKk8Ywwqtx2wrIy23EcTn4aZ2fLJNBB8d0tQENPCmw==}
     cpu: [riscv64]
     os: [linux]
-    libc: [glibc]
 
   '@rollup/rollup-linux-riscv64-gnu@4.44.1':
     resolution: {integrity: sha512-j5akelU3snyL6K3N/iX7otLBIl347fGwmd95U5gS/7z6T4ftK288jKq3A5lcFKcx7wwzb5rgNvAg3ZbV4BqUSw==}
     cpu: [riscv64]
     os: [linux]
-    libc: [glibc]
 
   '@rollup/rollup-linux-riscv64-musl@4.44.1':
     resolution: {integrity: sha512-ppn5llVGgrZw7yxbIm8TTvtj1EoPgYUAbfw0uDjIOzzoqlZlZrLJ/KuiE7uf5EpTpCTrNt1EdtzF0naMm0wGYg==}
     cpu: [riscv64]
     os: [linux]
-    libc: [musl]
 
   '@rollup/rollup-linux-s390x-gnu@4.34.8':
     resolution: {integrity: sha512-DdePVk1NDEuc3fOe3dPPTb+rjMtuFw89gw6gVWxQFAuEqqSdDKnrwzZHrUYdac7A7dXl9Q2Vflxpme15gUWQFA==}
     cpu: [s390x]
     os: [linux]
-    libc: [glibc]
 
   '@rollup/rollup-linux-s390x-gnu@4.44.1':
     resolution: {integrity: sha512-Hu6hEdix0oxtUma99jSP7xbvjkUM/ycke/AQQ4EC5g7jNRLLIwjcNwaUy95ZKBJJwg1ZowsclNnjYqzN4zwkAw==}
     cpu: [s390x]
     os: [linux]
-    libc: [glibc]
 
   '@rollup/rollup-linux-x64-gnu@4.34.8':
     resolution: {integrity: sha512-8y7ED8gjxITUltTUEJLQdgpbPh1sUQ0kMTmufRF/Ns5tI9TNMNlhWtmPKKHCU0SilX+3MJkZ0zERYYGIVBYHIA==}
     cpu: [x64]
     os: [linux]
-    libc: [glibc]
 
   '@rollup/rollup-linux-x64-gnu@4.44.1':
     resolution: {integrity: sha512-EtnsrmZGomz9WxK1bR5079zee3+7a+AdFlghyd6VbAjgRJDbTANJ9dcPIPAi76uG05micpEL+gPGmAKYTschQw==}
     cpu: [x64]
     os: [linux]
-    libc: [glibc]
 
   '@rollup/rollup-linux-x64-musl@4.34.8':
     resolution: {integrity: sha512-SCXcP0ZpGFIe7Ge+McxY5zKxiEI5ra+GT3QRxL0pMMtxPfpyLAKleZODi1zdRHkz5/BhueUrYtYVgubqe9JBNQ==}
     cpu: [x64]
     os: [linux]
-    libc: [musl]
 
   '@rollup/rollup-linux-x64-musl@4.44.1':
     resolution: {integrity: sha512-iAS4p+J1az6Usn0f8xhgL4PaU878KEtutP4hqw52I4IO6AGoyOkHCxcc4bqufv1tQLdDWFx8lR9YlwxKuv3/3g==}
     cpu: [x64]
     os: [linux]
-    libc: [musl]
 
   '@rollup/rollup-win32-arm64-msvc@4.34.8':
     resolution: {integrity: sha512-YHYsgzZgFJzTRbth4h7Or0m5O74Yda+hLin0irAIobkLQFRQd1qWmnoVfwmKm9TXIZVAD0nZ+GEb2ICicLyCnQ==}

@@ -16,7 +16,7 @@
     "svelte": "^4.2.7"
   },
   "devDependencies": {
-    "@histoire/plugin-svelte": "workspace:*",
+    "histoire-plugin-svelte": "workspace:*",
     "@sveltejs/vite-plugin-svelte": "^3.0.2",
     "cypress": "^13.16.1",
     "longmo-histoire": "workspace:*",

@@ -1,7 +1,8 @@
-import Vue, { h, onMounted, reactive } from 'vue'
+import type { Story, Variant } from 'histoire-shared'
 import type {
   PropType as _PropType,
-} from '@histoire/vendors/vue'
+} from 'histoire-vendors/vue'
+import type { Vue2StorySetupApi, Vue2StorySetupHandler } from '../../index.js'
 import {
   defineComponent as _defineComponent,
   h as _h,
@@ -9,14 +10,13 @@ import {
   onMounted as _onMounted,
   ref as _ref,
   watch as _watch,
-} from '@histoire/vendors/vue'
-import type { Story, Variant } from '@histoire/shared'
+} from 'histoire-vendors/vue'
+// @ts-expect-error virtual module id
+import * as generatedSetup from 'virtual:$histoire-generated-global-setup'
 // import { getTagName } from '../codegen'
 // @ts-expect-error virtual module id
 import * as setup from 'virtual:$histoire-setup'
-// @ts-expect-error virtual module id
-import * as generatedSetup from 'virtual:$histoire-generated-global-setup'
-import type { Vue2StorySetupApi, Vue2StorySetupHandler } from '../../index.js'
+import Vue, { h, onMounted, reactive } from 'vue'
 import { registerGlobalComponents } from './global-components.js'
 import { RouterLinkStub } from './RouterLinkStub'
 import { syncStateBundledAndExternal } from './util.js'

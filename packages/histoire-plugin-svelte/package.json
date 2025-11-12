@@ -1,7 +1,7 @@
 {
-  "name": "@histoire/plugin-svelte",
+  "name": "histoire-plugin-svelte",
   "type": "module",
-  "version": "1.0.0-alpha.4",
+  "version": "1.0.0-alpha.5",
   "description": "Histoire plugin for Svelte support",
   "author": {
     "name": "Guillaume Chau"
@@ -43,9 +43,9 @@
     "svelte": "^3.0.0 || ^4.0.0"
   },
   "dependencies": {
-    "@histoire/controls": "workspace:^",
-    "@histoire/shared": "workspace:^",
-    "@histoire/vendors": "workspace:^",
+    "histoire-controls": "workspace:^",
+    "histoire-shared": "workspace:^",
+    "histoire-vendors": "workspace:^",
     "change-case": "^5.4.4",
     "globby": "^14.0.2",
     "launch-editor": "^2.9.1",

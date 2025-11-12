@@ -1,9 +1,9 @@
 <script lang="ts" setup>
 import type { PropType } from 'vue'
 import type { Story, Variant } from '../../types'
-import { HstCopyIcon } from '@histoire/controls'
 import { Icon } from '@iconify/vue'
 import { useResizeObserver } from '@vueuse/core'
+import { HstCopyIcon } from 'histoire-controls'
 import { computed, ref, toRefs } from 'vue'
 import { useRouter } from 'vue-router'
 import { usePreviewSettingsStore } from '../../stores/preview-settings'
