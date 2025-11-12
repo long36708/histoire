@@ -186,6 +186,21 @@ export async function getViteConfigWithPlugins(isServer: boolean, ctx: Context):
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="">
+  <script>
+   // Define global variable
+   IconifyProviders = {
+       // Empty prefix: overwrite default API provider configuration
+       '': {
+           // Use custom API first, use Iconify public API as backup
+           resources: [
+               'http://localhost:3000',
+               'https://api.iconify.design',
+           ],
+           // Wait for 1 second before switching API hosts
+           rotate: 1000,
+       },
+   };
+</script>
 </head>
 <body>
   <div id="app"></div>
@@ -226,6 +241,21 @@ export async function getViteConfigWithPlugins(isServer: boolean, ctx: Context):
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="description" content="">
+    <script>
+   // Define global variable
+   IconifyProviders = {
+       // Empty prefix: overwrite default API provider configuration
+       '': {
+           // Use custom API first, use Iconify public API as backup
+           resources: [
+               'http://localhost:3000',
+               'https://api.iconify.design',
+           ],
+           // Wait for 1 second before switching API hosts
+           rotate: 1000,
+       },
+   };
+</script>
     ${ctx.config.theme?.favicon ? `<link rel="icon" type="${lookupMime(ctx.config.theme.favicon)}" href="${server.config.base}${ctx.config.theme.favicon}"/>` : ''}
   </head>
   <body>

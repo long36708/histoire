@@ -100,7 +100,11 @@ export default _defineComponent({
 
       // Stubs
       Vue.component('RouterLink', RouterLinkStub)
-
+      // 添加检查
+      if (!el.value) {
+        console.warn('MountStory element is not available')
+        return
+      }
       const target = document.createElement('div')
       el.value.appendChild(target)
       app.$mount(target)
